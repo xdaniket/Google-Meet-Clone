@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+.Parent-Container {
+  height: 100vh;
+  width: 100%;
+  background-color: #202124;
+}
+.Center-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.Sections {
+  margin-top: 70px;
+}
+
+.Top_Images {
+  display: flex;
+  position: relative;
+  margin-bottom: 4px;
+}
+.para {
+  position: absolute;
+  bottom: 13px;
+  left: 10px;
+}
+.img {
+  height: 200px;
+  width: 418px;
+  border-radius: 10px;
+}
+.Footer {
+  color: white;
+  margin-top: 22px;
+  display: flex;
+}
+.Text {
+  margin-left: 91px;
+}
+.Icons {
+  display: flex;
+  gap: 11px;
+  margin-left: 218px;
+}
+.svg {
+  background: red;
+  border-radius: 19px;
+  padding: 8px;
+  fill: white;
+  height: 22px;
+  cursor: pointer;
+}
+.svg4 {
+  background-color: rgb(139, 143, 148);
+  position: absolute;
+  left: 380px;
+  top: 10px;
+  border-radius: 19px;
+  padding: 3px;
+  fill: white;
+  height: 18px;
+  cursor: pointer;
+}
+.svg1 {
+  background-color: rgb(52, 56, 59);
+  cursor: pointer;
+}
+.svg2 {
+  cursor: pointer;
+  background-color: rgb(52, 56, 59);
+  width: 38px;
+  border-radius: 46px;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+.svg3 {
+  cursor: pointer;
+  width: 58px;
+  border-radius: 46px;
+  color: white;
+  border: none;
+  font-size: 15px;
+  background-color: red;
+}
+.Side_Bar {
+  margin-left: 365px;
+  display: flex;
+  gap: 21px;
+  cursor: pointer;
+}
+.Side {
+  font-size: 20px;
+  cursor: pointer;
+}
